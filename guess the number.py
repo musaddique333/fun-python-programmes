@@ -6,10 +6,11 @@ Created on Tue Apr 26 22:05:00 2022
 @author: mohmmadmusaddique
 """
 import os
+import numpy as np
 while 1:      
     print('\f')
     print('Guess The Number')
-    number=53
+    number = np.random.randint(1,100)
     
     for i in range(0,8):
         
